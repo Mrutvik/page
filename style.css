@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+.disclaimer {
+ display: none;
+}
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 0;
+ margin: 0;
+ background: linear-gradient(45deg, #368AFC, #C136FC);
+ width: 100%;
+
+}
+
+
+
+
+.maincontenforbody {
+ display: grid;
+ place-items: center;
+
+
+}
+
+.maincontenforimgandwelcom {
+ position: relative;
+ width: 100%;
+
+}
+
+.maincontenforimgandwelcom .overimg {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ /* border: solid 2px #000; */
+ border-radius: 25px;
+ width: 100%;
+ margin-top: 25px;
+ transition: .5s;
+}
+
+.maincontenforimgandwelcom .overimg img {
+ border-radius: 25px;
+ border: solid 5px #000;
+
+}
+
+.maincontenforimgandwelcom .overimg .inimg #i1 {
+ position: absolute;
+ top: 90%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 300px;
+ height: 300px;
+ border-radius: 50%;
+ border: solid 5px #000;
+ transition: .5s;
+}
+
+.maincontenforimgandwelcom .overimg .inimg #i1:hover,
+.maincontenforimgandwelcom .overimg:hover {
+ box-shadow: 0 0 30px #000;
+}
+
+#welcome1 {
+ font-size: 50px;
+ font-family: 'Titan One', cursive;
+ font-weight: 100px;
+ color: #fff;
+}
+
+#welcome1::selection {
+ color: #fff;
+ background: #C136FC;
+}
+
+#b1 {
+ color: #FCE336;
+
+}
+
+#b1::selection {
+ color: #C136FC;
+ background: #fff;
+ border-radius: 50px;
+}
+
+#hed21 {
+ color: #fff;
+ font-family: 'Titan One', cursive;
+ font-weight: 100%;
+}
+
+#hed21::selection {
+ color: #fff;
+ background: #C136FC;
+}
+
+/* dyyodo6r6oeydldod6f6ofdydo6dydy */
+
+
+.project {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 90%;
+ border: dashed 3px #000;
+ border-radius: 25px;
+ height: 400px;
+ margin: 20px;
+ color: #fff;
+ font-family: 'Titan One', cursive;
+ transition: .5s;
+}
+
+.project:hover {
+ box-shadow: 0 0 30px #000;
+}
+
+.hed2 h2 {
+ font-size: 30px;
+ color: #FCE336;
+ border-bottom: solid 2px #FCE336;
+ padding: 5px;
+ width: 300px;
+}
+
+.hed2 p {
+ border-bottom: solid 2px #Fff;
+ padding: 5px;
+}
+
+.videos video {
+ width: 260px;
+ height: 260px;
+ margin: 20px;
+ border-radius: 25px;
+ transition: .5s;
+}
+
+.videos video:hover {
+ margin: 0;
+}
+
+a {
+ text-decoration: none;
+ color: #fff;
+ border-bottom: solid 2px #fff;
+ padding: 5px;
+ transition: .4s;
+}
+
+
+
+
+/*conect us.*/
+
+.conec {
+ width: 90%;
+ height: 300px;
+ border: dashed 2px #000;
+ border-radius: 25px;
+ display: grid;
+ place-items: center;
+ transition: .5s;
+ background: linear-gradient(-45deg, #9026ED80, #267FED80);
+}
+
+.conec:hover {
+ box-shadow: 0 0 30px #000;
+}
+
+.conec b {
+ font-size: 40px;
+}
+
+.Googlechat {
+ font-size: 25px;
+}
+
+.mainconforconectus {
+ display: grid;
+ place-items: center;
+ height: 100px;
+}
+
+.iconsss {
+ display: flex;
+ width: 50%;
+ margin: 5%;
+}
+
+.iconsss i {
+ margin: 17px;
+ font-size: 30px;
+ transition: .3s;
+ border-radius: 50%;
+ color: #fff;
+}
+
+.iconsss i:hover {
+ color: #FCE336;
+}
+
+#gggb {
+ color: #fff;
+ font-family: 'Titan One', cursive;
+
+}
+
+#eeeb {
+ color: #FCE336;
+ font-size: none;
+ font-family: 'Titan One', cursive;
+}
+
+
+/*############ my hacking story ###############*/
+
+.maincon {
+ width: 100%;
+ position: relative;
+ display: grid;
+ place-items: center;
+ transition: .5s;
+}
+
+.maincon:hover .textposa {
+ box-shadow: 0 0 30px #000;
+
+}
+
+.imgessssforbg {
+ width: 90%;
+ height: 350px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 25px;
+ overflow: hidden;
+ border: 3px dashed #000;
+
+}
+
+.imgessssforbg img {
+ width: 100%;
+ height: 350px;
+}
+
+.textposa {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 90%;
+ height: 350px;
+ text-align: center;
+ color: #fff;
+ display: grid;
+ place-items: center;
+ background: linear-gradient(-45deg, #9026ED80, #267FED80);
+ border-radius: 25px;
+ overflow: hidden;
+ border: 3px dashed #000;
+ transition: .5s;
+
+}
+
+.textposa p {
+ font-size: 25px;
+ margin: 35px;
+ margin-bottom: 10px;
+}
+
+.textposa h1 {
+ font-size: 55px;
+ margin-top: 50px;
+}
