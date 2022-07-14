@@ -117,6 +117,7 @@ body {
  color: #fff;
  font-family: 'Titan One', cursive;
  transition: .5s;
+ background: linear-gradient(-45deg, #9026ED80, #267FED80);
 }
 
 .project:hover {
